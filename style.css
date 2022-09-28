@@ -1,0 +1,39 @@
+body{
+    min-width: 1224x;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+}
+
+.subrayado{
+    display: flex;
+}
+
+.dibujarLineas{
+    border-bottom: solid 4px #0A3871;
+    width: 30px;
+    margin: 10px;
+}
+
+.esconderLetra{
+    display: none;
+    font-size: 13px;
+}
+/*
+@media screen and (max-width:1000px) {
+    /*h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+}*/
